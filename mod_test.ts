@@ -15,7 +15,7 @@ Deno.test("LimitedStack - peek functionality", () => {
   stack.push(10);
   stack.push(20);
   assertStrictEquals(stack.peek(), 20); // Peek should return the most recent item
-  assertStrictEquals(stack.size(), 2);  // Peek should not remove items
+  assertStrictEquals(stack.size(), 2); // Peek should not remove items
 });
 
 Deno.test("LimitedStack - size and clear functionality", () => {
